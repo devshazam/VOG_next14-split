@@ -62,18 +62,18 @@ function ButtonElements() {
     <div className='w-full text-center mt-3'>
     <ButtonGroup variant="contained" aria-label="Basic button group" className=' mx-auto'>
       <Button > 
-        <a title={"Telegramm"} href={"https://t.me/+79020000000"} target="_blank">
+        <a title={"Telegramm"} href={"https://t.me/+79377283649"} target="_blank">
                 <Image src={"/img/telegramm.png"} width='44' height='44' alt='phone' />
         </a>
         </Button>
       <Button>
-         <a title={"Whatsapp"} href={"https://wa.me/+79020000000"} target="_blank">
+         <a title={"Whatsapp"} href={"https://wa.me/+79377283649"} target="_blank">
                 <Image src={"/img/whatsapp.png"} width='48' height='48' alt='phone' />
         </a>
      
       </Button>
       <Button>
-        <a title={"phone"} href={"tel:+79020000000"} target="_blank">
+        <a title={"phone"} href={"tel:+79377283649"} target="_blank">
                 <Image src={"/img/phone.png"} width='44' height='44' alt='phone' />
         </a>
       </Button>

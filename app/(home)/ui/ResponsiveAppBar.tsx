@@ -19,7 +19,7 @@ import { Modal } from 'antd';
 
 
 const pages = ['calc', 'tarif', 'map'];
-const pagesToRussian:any = {calc: "Калькулятор", tarif: "Тарифы", map: "Карта"};
+const pagesToRussian:any = {calc: "Калькулятор", tarif: "Услуги", map: "Карта"};
 
 
 export default function ResponsiveAppBar() {
@@ -50,7 +50,7 @@ export default function ResponsiveAppBar() {
   return (     
     <>
     <Modal title="Акция месяца:" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-      <p>Скидка 10% на чистку паром!</p>
+      <p>Скидка 10% на заправку фреоном!</p>
 
     </Modal>
     <AppBar position="fixed" >

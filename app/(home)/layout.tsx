@@ -50,32 +50,6 @@ export default function HomeLayout({
         </div>
       </Content>
       <Footer style={{ textAlign: 'center' }}>
-      <div className='p-4'>
-
-<Row gutter={[12, 12]}>
-    <Col  span={24} md={8} >
-    <ul>
-        <li><b>Контакты:</b></li>
-        <li>8-937-728-36-49</li>
-    </ul>
-    </Col>
-    <Col  span={24} md={8} >
-    <ul>
-        <li><b>Контакты:</b></li>
-        <li>8-937-728-36-49</li>
-    </ul>
-
-    </Col>
-    <Col  span={24} md={8} >
-    <ul>
-        <li><b>Контакты:</b></li>
-        <li>8-937-728-36-49</li>
-    </ul>
-
-    </Col>
-</Row>
-</div>
-
         Разработано в <a href="https://kopi34.ru/">kopi34.ru</a> ©2024
       </Footer>
       </div>
