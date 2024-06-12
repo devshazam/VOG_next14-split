@@ -107,7 +107,7 @@ export default function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Link href={`#${page}`}><Typography textAlign="center">{pagesToRussian[page]}</Typography></Link>
+                  <Link href={`/#${page}`}><Typography textAlign="center">{pagesToRussian[page]}</Typography></Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -130,11 +130,11 @@ export default function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            RusTransfer
+            AirRepair
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Link href={`#${page}`} key={page}><Button
+              <Link href={`/#${page}`} key={page}><Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}

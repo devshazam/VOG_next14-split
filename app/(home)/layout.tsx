@@ -33,7 +33,7 @@ export default function HomeLayout({
       <Header style={{ display: 'flex', alignItems: 'center', height: 'auto' }}>
       <ResponsiveAppBar />
       </Header>
-      <Content style={{ padding: '0 48px' }}>
+      <Content >
         <Breadcrumb style={{ margin: '16px 0' }}>
           <Breadcrumb.Item>Home</Breadcrumb.Item>
         </Breadcrumb>
@@ -50,7 +50,9 @@ export default function HomeLayout({
         </div>
       </Content>
       <Footer style={{ textAlign: 'center' }}>
-        Разработано в <a href="https://kopi34.ru/">kopi34.ru</a> ©2024
+        <p>Тел.: +79377283649; Вакуленко Александр Николаевич; ИНН: 344807806431
+        <hr></hr><br></br>
+        Разработано в <a href="https://kopi34.ru/">kopi34.ru</a> ©2024</p>
       </Footer>
       </div>
     </Layout>
